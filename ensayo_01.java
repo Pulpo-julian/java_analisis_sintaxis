@@ -7,7 +7,11 @@ public class ensayo_01 {
         Scanner sc = new Scanner(System.in);
         System.out.println("ingrese un numero int: ");
         int numero = sc.nextInt();
+        
+        sc.nextLine();
+        
         System.out.println("ingrese una palabra: ");
+        
         String palabra = sc.nextLine();
         System.out.println("ingrese otra palabra: ");
         String palabra2 = sc.nextLine();
